@@ -1,0 +1,68 @@
+/*Search*/
+.searchinput {
+  border: none;
+  border-bottom: 1px solid #ff523b;
+  background-color: #000;
+  color: #fff;
+}
+
+.searchinput:focus {
+  outline: none;
+}
+
+.searchinput::placeholder {
+  color: rgba(255, 255, 255, 0.667);
+}
+
+.searchinput:hover {
+  border-bottom: 2px solid hsl(0, 100%, 50%);
+}
+
+.searchinput:hover::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.searchinput:focus {
+  border: 3px solid #ff523b;
+}
+
+.searchinput:focus::placeholder {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.search {
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0px 5px 15px 0px rgba(255, 98, 0, 0.3);
+}
+
+.search:hover {
+  background-color: #fff;
+  color: #000;
+  border: #ff523b 2px solid;
+}
+
+.search:active {
+  background-color: hsl(0, 100%, 50%);
+  color: #fff;
+  border: #ff523b 2px solid;
+}
+
+/*Navbar*/
+.navbar {
+  font-family: 'Poppins', sans-serif;
+}
+
+.cartAmount {
+  top: -10px;
+  right: -6px;
+  font-size: 7px;
+  background-color: red;
+  color: white;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+/*-------------Login Screen--------------*/
+
+/*-------------Login Screen--------------*/

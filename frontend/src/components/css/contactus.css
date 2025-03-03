@@ -1,0 +1,93 @@
+/*-------------Contact-Us--------------*/
+
+.containercu{
+width:85%;
+margin:auto;
+}
+
+.containercu .contactbox{
+background:#fff;
+display:flex;
+}
+
+.containercu .contactleft{
+flex-basis:60%;
+}
+
+.containercu .contactright{
+flex-basis:40%;
+background:#ff523b;
+color:#fff;
+}
+
+.containercu h1{
+margin-bottom:10px;
+color:#fff;
+}
+
+.containercu p{
+margin-bottom:20px;
+color:#fff;
+}
+
+.containercu .inputrow{
+display:flex;
+justify-content:space-between;
+margin-bottom:20px;
+}
+
+.containercu .inputrow.inputgroup{
+flex-basis:45%;
+}
+
+.containercu input{
+width:100%;
+border:none;
+border-bottom:1px solid #ccc;
+outline:none;
+padding-bottom:5px;
+}
+
+.containercu textarea{
+width:100%;
+border:1px solid #ccc;
+outline:none;
+padding:10px;
+box-sizing:border-box;
+}
+.containercu label{
+margin-bottom:6px;
+display:block;
+color:#ff523b;
+}
+.containercu button{
+background:#ff523b;
+width:100px;
+border:none;
+outline:none;
+color:#fff;
+height:30px;
+border-radius:30px;
+margin-top:20px;
+box-shadow:0px 5px 15px 0px rgba(255,98,0,0.3);
+
+}
+
+.containercu .contactleft h3{
+color:#000;
+font-weight:600;
+margin-bottom:30px;
+}
+
+.containercu .contactright h3{
+font-weight:600;
+margin-bottom:30px;
+}
+
+.containercu tr td:first-child{
+padding-right:20px;
+}
+
+.containercu tr td{
+padding-top:20px;
+}

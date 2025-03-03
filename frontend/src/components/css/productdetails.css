@@ -1,0 +1,58 @@
+.singleproduct {
+  margin-top: 80px;
+}
+.singleproduct .col img {
+  padding: 0;
+}
+
+.singleproduct .col {
+  padding: 20px;
+}
+
+.singleproduct h4 {
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.singleproduct select {
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.singleproduct input {
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  border: 1px solid #ff523b;
+}
+
+.singleproduct .btn {
+  color: #ff523b;
+  background-color: #ff523b;
+}
+
+.smallimgrow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.smallimgcol {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+.img-large {
+  max-width: 100%;
+}
+
+.orange {
+  background-color: #ff523b;
+}
+
+.p-details {
+  font-family: 'Poppins', sans-serif;
+}
